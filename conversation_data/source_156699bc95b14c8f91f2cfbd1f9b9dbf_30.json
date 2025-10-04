@@ -1,0 +1,10 @@
+[
+  {
+    "role": "user",
+    "content": "What is a Knowledge Graph (KG), and what are its main components (nodes/entities, edges/relations, attributes)? Can you give me a simple example? (Tests basic KG understanding)"
+  },
+  {
+    "role": "assistant",
+    "content": "A **Knowledge Graph (KG)** is a structured representation of knowledge that models real-world entities (nodes), their relationships (edges), and associated properties (attributes) in a graph-based format. It organizes information into interconnected elements to enable reasoning, querying, and inference. KGs are widely used in search engines, recommendation systems, and AI applications to enhance understanding of data.\n\n### **Main Components of a Knowledge Graph:**\n1. **Nodes (Entities):** Represent distinct entities (e.g., people, places, organizations, objects).  \n   Example: *Alice*, *TechCorp*, *San Francisco*.  \n\n2. **Edges (Relations):** Represent relationships or connections between entities (e.g., \"works at,\" \"located in,\" \"directed by\").  \n   Example: *Alice → works at → TechCorp*, *TechCorp → located in → San Francisco*.  \n\n3. **Attributes (Properties):** Provide additional details about nodes (e.g., age, population, industry).  \n   Example: *Alice* has *age: 30*, *TechCorp* has *industry: Technology*, *San Francisco* has *population: 900,000*.\n\n---\n\n### **Simple Example:**\nConsider a basic KG about a person and their workplace:  \n- **Nodes (Entities):**  \n  - *Alice* (Person)  \n  - *TechCorp* (Company)  \n  - *San Francisco* (City)  \n\n- **Edges (Relations):**  \n  - *Alice → works at → TechCorp*  \n  - *TechCorp → located in → San Francisco*  \n\n- **Attributes (Properties):**  \n  - *Alice*: *age: 30*, *role: Software Engineer*  \n  - *TechCorp*: *industry: Technology*, *founded: 2010*  \n  - *San Francisco*: *population: 900,000*, *country: USA*  \n\nThis graph captures relationships (e.g., \"Alice works at TechCorp\") and adds context (e.g., Alice’s age, TechCorp’s industry) to enhance understanding."
+  }
+]
