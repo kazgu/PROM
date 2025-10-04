@@ -74,13 +74,6 @@ personal_kg/
 │   ├── correction/            # Correction algorithms
 │   ├── evaluation/            # Evaluation metrics
 │   └── utils/                 # Utility functions
-├── users/                     # User management
-├── frontend/                  # Frontend static files
-│   ├── css/                   # Stylesheets
-│   ├── js/                    # JavaScript modules
-│   └── templates/             # HTML templates
-├── draft/                     # Research paper draft
-├── eval_results_*/            # Evaluation results
 ├── conversation_data/         # Sample conversation datasets
 └── exported_knowledge_graphs/ # Generated knowledge graphs
 ```
@@ -98,8 +91,8 @@ personal_kg/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/personal-kg.git
-   cd personal-kg
+   git clone https://github.com/kazgu/prom.git
+   cd prom
    ```
 
 2. **Install dependencies**
@@ -158,33 +151,6 @@ triples = extractor.extract_triples(
     confidence_threshold=0.7
 )
 # Output: [(John, works_at, Microsoft), (Microsoft, located_in, Seattle)]
-```
-
-### 3. Knowledge Fusion
-
-Refine and enhance extracted knowledge:
-
-```python
-from kg_correction.correction.corrector import KnowledgeGraphCorrector
-
-corrector = KnowledgeGraphCorrector(kg_data=knowledge_graph)
-corrector.correct_all()  # Apply all correction strategies
-corrected_graph = corrector.get_corrected_graph()
-```
-
-## 📊 Evaluation Framework
-
-PROM includes a comprehensive evaluation framework with multiple metrics:
-
-### Running Evaluations
-
-```bash
-# Run complete evaluation pipeline
-./evaluate_for_paper.sh
-
-# Run specific evaluations
-python evaluate_rag_impact.py --kg_path exported_knowledge_graphs/kg_sample.json
-python entity_extraction_comparison_experiment.py
 ```
 
 ### Evaluation Metrics
