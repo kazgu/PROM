@@ -161,7 +161,7 @@ triples = extractor.extract_triples(
 - **Link Prediction**: TransE embeddings, MRR, Hits@K metrics
 - **RAG Evaluation**: Question answering performance, reasoning quality
 
-Maoliniyazi, A.; Ma, C.; Meng, X. and Xu, B. (2025). PROM: Personal Knowledge Graph Construction with Large Language Models.  In Proceedings of the 17th International Joint Conference on Knowledge Discovery, Knowledge Engineering and Knowledge Management - Volume 2: KEOD and KMIS, ISBN 978-989-758-769-6, ISSN 2184-3228, pages 301-312.    
+
 
 ### Key Findings
 
@@ -169,3 +169,8 @@ Maoliniyazi, A.; Ma, C.; Meng, X. and Xu, B. (2025). PROM: Personal Knowledge Gr
 - **Good Quality Coverage**: 41.9% of triples with confidence 0.7-0.8
 - **Rich Semantic Diversity**: Over 140 distinct entity types captured
 - **Balanced Connectivity**: Moderate graph density preventing over-connection
+
+### Paper
+```
+Maoliniyazi, A.; Ma, C.; Meng, X. and Xu, B. (2025). PROM: Personal Knowledge Graph Construction with Large Language Models.  In Proceedings of the 17th International Joint Conference on Knowledge Discovery, Knowledge Engineering and Knowledge Management - Volume 2: KEOD and KMIS, ISBN 978-989-758-769-6, ISSN 2184-3228, pages 301-312. 
+```   
