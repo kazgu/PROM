@@ -172,5 +172,7 @@ triples = extractor.extract_triples(
 
 ### Paper
 ```
-Maoliniyazi, A.; Ma, C.; Meng, X. and Xu, B. (2025). PROM: Personal Knowledge Graph Construction with Large Language Models.  In Proceedings of the 17th International Joint Conference on Knowledge Discovery, Knowledge Engineering and Knowledge Management - Volume 2: KEOD and KMIS, ISBN 978-989-758-769-6, ISSN 2184-3228, pages 301-312. 
+@Proceedings{
+Maoliniyazi, A.; Ma, C.; Meng, X. and Xu, B. (2025). PROM: Personal Knowledge Graph Construction with Large Language Models.  In Proceedings of the 17th International Joint Conference on Knowledge Discovery, Knowledge Engineering and Knowledge Management - Volume 2: KEOD and KMIS, ISBN 978-989-758-769-6, ISSN 2184-3228, pages 301-312.
+}
 ```   
